@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "aws-sdk": "^2.182.0",
+    "aws-sdk": "^2.184.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -21,7 +21,13 @@
     "webpack-node-externals": "^1.6.0"
   },
   "dependencies": {
+    "amazon-cognito-identity-js": "^1.31.0",
     "babel-runtime": "^6.26.0",
-    "uuid": "^3.1.0"
+    "crypto-js": "^3.1.9-1",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "uuid": "^3.2.1"
   }
 }
